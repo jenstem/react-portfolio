@@ -1,0 +1,32 @@
+.project-card {
+  width: 300px;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px #dda15e;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #666;
+}
+
+.hover-link:hover {
+  color: #283618;
+  font-weight: 600;
+}
