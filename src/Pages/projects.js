@@ -17,12 +17,12 @@ export default function Projects() {
             <h2 className="portfolio-size">My Portfolio</h2>
             <div className="projects-grid">
                 {projectData.map((project, index) => (
-                    <a
-                    href="#"
-                        key={index}
-                    >
+                    // <a
+                    // href="/"
+                    //     key={index}
+                    // >
                         <ProjectCard {...project} />
-                    </a>
+                    // </a>
                 ))}
             </div>
             <div className="add-space"></div>
