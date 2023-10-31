@@ -18,6 +18,7 @@ export default function Projects() {
             <div className="projects-grid">
                 {projectData.map((project, index) => (
                     <a
+                    href="#"
                         key={index}
                     >
                         <ProjectCard {...project} />
