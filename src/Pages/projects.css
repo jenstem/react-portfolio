@@ -1,0 +1,17 @@
+.projects-container {
+  padding: 2rem;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-size {
+  font-size: 32px;
+}
+
+.add-space {
+  margin-bottom: 50px;
+}
