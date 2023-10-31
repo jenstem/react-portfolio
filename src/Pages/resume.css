@@ -1,0 +1,12 @@
+.resume-title {
+    font-size: 2rem;
+    color: #333;
+}
+
+.emoji {
+    background-color: greenyellow;
+}
+
+.emoji:hover {
+    background-color: green;
+}
