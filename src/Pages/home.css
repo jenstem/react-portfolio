@@ -1,0 +1,67 @@
+.header-container {
+    background: #ffffff;
+    padding: 42px 24px 42px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .header-content {
+    flex: 1;
+    min-width: 320px;
+    max-width: 620px;
+  }
+
+  .myName {
+    color: black;
+    text-align: left;
+    font: sans-serif, arial;
+    font-weight: 600;
+    font-size: 68px;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+  }
+
+  .myTitle {
+    color: black;
+    text-align: left;
+    font: sans-serif, arial;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+  }
+
+  .myTitleTwo {
+    color: black;
+    text-align: left;
+    font: sans-serif, arial;
+    font-weight: 400;
+    font-size: 22px;
+    position: relative;
+    align-self: stretch;
+  }
+
+  .header-image {
+    flex: 1;
+    height: 300px;
+    min-width: 220px;
+    max-width: 280px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(45, 45, 45, 0.2);
+  }
