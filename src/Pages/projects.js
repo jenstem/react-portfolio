@@ -2,14 +2,19 @@ import React from 'react';
 import ProjectCard from '../components/Project/ProjectCard';
 import './projects.css';
 import PWA from '../assets/app-images/PWA.jpg';
+import SocialNetwork from '../assets/app-images/social-network.jpg';
+import TechBlog from '../assets/app-images/tech-blog.jpg';
+import RhythmReviews from '../assets/app-images/rhythm-reviews.jpg';
+import ECommerceBackend from '../assets/app-images/ecommerce.jpg';
+import EmployeeTracker from '../assets/app-images/employee-tracker.jpg';
 
 const projectData = [
-    { title: 'PWA Text Editor', description: 'Text editor web application', imageUrl: { PWA }, url: "https://github.com/jenstem/pwa-text-editor", site: "https://hidden-ocean-30849-b1dc3b32b941.herokuapp.com/" },
-    { title: 'Social Network API', description: 'A command line invoked network api', imageUrl: "../assets/app-images/social-network.jpg", url: 'https://github.com/jenstem/social-network-api', site: "Not Available" },
-    { title: 'Tech Blog', description: 'CMS-style blog site', imageUrl: "./assets/app-images/tech-blog", url: "https://github.com/jenstem/tech-blog", site: "https://fast-brook-86367-d21f795e7f85.herokuapp.com/" },
-    { title: 'Rhythm Reviews', description: 'A CMS-style review site', imageUrl: "../../assets/app-images/rhythm-reviews.jpg", url: "https://github.com/group7-project2/rhythm-reviews", site: "https://rhythm-reviews-8a43a75413f9.herokuapp.com/" },
-    { title: 'E-Commerce Backend', description: 'Express.js API', imageUrl: '', url: "https://github.com/jenstem/e-commerce-backend", site: "Not Available" },
-    { title: 'Employee Tracker', description: 'Command line application', imageUrl: '', url: "https://github.com/jenstem/employee-tracker", site: "Not Available" },
+    { title: 'PWA Text Editor', description: 'Text editor web application', imageUrl: PWA, url: "https://github.com/jenstem/pwa-text-editor", site: "https://hidden-ocean-30849-b1dc3b32b941.herokuapp.com/" },
+    { title: 'Social Network API', description: 'A command line invoked network api', imageUrl: SocialNetwork, url: 'https://github.com/jenstem/social-network-api', site: "Not Available" },
+    { title: 'Tech Blog', description: 'CMS-style blog site', imageUrl: TechBlog, url: "https://github.com/jenstem/tech-blog", site: "https://fast-brook-86367-d21f795e7f85.herokuapp.com/" },
+    { title: 'Rhythm Reviews', description: 'A CMS-style review site', imageUrl: RhythmReviews, url: "https://github.com/group7-project2/rhythm-reviews", site: "https://rhythm-reviews-8a43a75413f9.herokuapp.com/" },
+    { title: 'E-Commerce Backend', description: 'Express.js API', imageUrl: ECommerceBackend, url: "https://github.com/jenstem/e-commerce-backend", site: "Not Available" },
+    { title: 'Employee Tracker', description: 'Command line application', imageUrl: EmployeeTracker, url: "https://github.com/jenstem/employee-tracker", site: "Not Available" },
 ];
 
 export default function Projects() {
@@ -18,12 +23,7 @@ export default function Projects() {
             <h2 className="portfolio-size">My Portfolio</h2>
             <div className="projects-grid">
                 {projectData.map((project, index) => (
-                    // <a
-                    // href="/"
-                    //     key={index}
-                    // >
-                        <ProjectCard {...project} />
-                    // </a>
+                        <ProjectCard project={project} />
                 ))}
             </div>
             <div className="add-space"></div>
