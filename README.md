@@ -59,7 +59,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 <a id='installation'></a>
 ## Installation
 You can use the link below to access the deployed app.\
-[React Portfolio](https://hidden-ocean-30849-b1dc3b32b941.herokuapp.com/)
+[React Portfolio](https://main--elegant-manatee-16206a.netlify.app/)
 ##
 
 <a id='usage'></a>
@@ -75,12 +75,12 @@ This app is meant to help the user display their portfolio in a consistent and a
 ## Screenshots:
 ##
 
-![](https://github.com/jenstem/pwa-text-editor/blob/main/assets/text-editor-blank.png) <br>
-*This is a screenshot of the navigation and about section*
+![](https://github.com/jenstem/react-portfolio/blob/main/src/assets/app-images/portfolio.png) <br>
+*This is a screenshot of the portfolio section*
 ##
 
-![](https://github.com/jenstem/pwa-text-editor/blob/main/assets/text-editor-list.png) <br>
-*This is a screenshot of the portfolio section*
+![](https://github.com/jenstem/react-portfolio/blob/main/src/assets/app-images/contact-me.png) <br>
+*This is a screenshot of the contact section*
 ##
 
 <a id='contact'></a>
