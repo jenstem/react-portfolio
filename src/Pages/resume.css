@@ -3,10 +3,11 @@
     color: #333;
 }
 
-.emoji {
-    background-color: greenyellow;
+.download-resume {
+    font-weight: 800;
+    color: #283618;
 }
 
-.emoji:hover {
-    background-color: green;
+.download-resume:hover {
+    color: #606C38;
 }
