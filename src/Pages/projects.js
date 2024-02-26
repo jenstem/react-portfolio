@@ -8,8 +8,10 @@ import RhythmReviews from '../assets/app-images/rhythm-reviews.jpg';
 import ECommerceBackend from '../assets/app-images/ecommerce.jpg';
 import EmployeeTracker from '../assets/app-images/employee-tracker.jpg';
 import RhythmReviews2 from '../assets/app-images/rhythmreview2.jpg';
+import Revents from '../assets/app-images/revents.jpg';
 
 const projectData = [
+    { title: 'Revents', description: 'A React event site', imageUrl: Revents, url: "https://github.com/jenstem/react-portfolio", site: "https://revents-2023-6b66b.firebaseapp.com/events" },
     { title: 'Rhythm Reviews 2.0', description: 'A React review site', imageUrl: RhythmReviews2, url: "https://github.com/group2-project3/rhythm-reviews-2.0", site: "https://rhythm-reviews-v2-a30efa7f58da.herokuapp.com/" },
     { title: 'PWA Text Editor', description: 'Text editor web application', imageUrl: PWA, url: "https://github.com/jenstem/pwa-text-editor", site: "https://hidden-ocean-30849-b1dc3b32b941.herokuapp.com/" },
     { title: 'Social Network API', description: 'A command line invoked network api', imageUrl: SocialNetwork, url: 'https://github.com/jenstem/social-network-api', site: "Not Available" },
