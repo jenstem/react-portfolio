@@ -14,7 +14,7 @@ export default function Home() {
         <div>
           <div className="myName">Jen Stemkowski</div>
           <div className="myTitle">Software Engineer</div>
-          <div className="myTitleTwo">Fullstack developer</div>
+          <div className="myTitleTwo">Full Stack Developer</div>
         </div>
       </div>
       <div className="bar"></div>
