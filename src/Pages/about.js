@@ -7,7 +7,7 @@ export default function About() {
     <div className="about-container">
       <h2 className="about-title">About Me</h2>
       <p className="about-text">
-        I'm currently enrolled in the Full Stack Coding Bootcamp at the University of Connecticut.  I aim to create web applications that are both functional and aesthetically pleasing.  I have experience with HTML, CSS, JavaScript, Node.js, Express.js, MySQL, MongoDB, and React.js.  I am currently learning the MERN stack.
+        I aim to create web applications that are both user-friendly and aesthetically pleasing.  As a full stack developer, I have an undeniable love for building things, I enjoy turning complex problems into simple concepts and using my integrity-based principles to enhance the world around me.
 
       </p>
       <div className="bar"></div>
