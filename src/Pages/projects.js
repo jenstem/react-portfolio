@@ -10,8 +10,10 @@ import EmployeeTracker from '../assets/app-images/employee-tracker.jpg';
 import RhythmReviews2 from '../assets/app-images/rhythmreview2.jpg';
 import Revents from '../assets/app-images/revents.jpg';
 import Newsfeed from '../assets/app-images/python-newsfeed.jpg';
+import SpaceInvasion from '../assets/app-images/space_invasion.jpg';
 
 const projectData = [
+    { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: "https://github.com/jenstem/space_invasion", site: "Not Available" },
     { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: "https://github.com/jenstem/the-python-newsfeed", site: "https://the-python-newsfeed-aebfc671fd04.herokuapp.com/" },
     { title: 'Revents', description: 'A React event site', imageUrl: Revents, url: "https://github.com/jenstem/react-portfolio", site: "https://revents-2023-6b66b.firebaseapp.com/events" },
     { title: 'Rhythm Reviews 2.0', description: 'A React review site', imageUrl: RhythmReviews2, url: "https://github.com/group2-project3/rhythm-reviews-2.0", site: "https://rhythm-reviews-v2-a30efa7f58da.herokuapp.com/" },
