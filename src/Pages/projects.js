@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/Project/ProjectCard';
 import './projects.css';
+import CodeQuiz from '../assets/app-images/code-quiz.jpg';
 import WorkDay from '../assets/app-images/work-day-scheduler.jpg';
 import PWA from '../assets/app-images/PWA.jpg';
 import SocialNetwork from '../assets/app-images/social-network.jpg';
@@ -15,8 +16,8 @@ import SpaceInvasion from '../assets/app-images/space_invasion.jpg';
 import Cleaner from '../assets/app-images/python-desktop-cleaner.jpg';
 
 const projectData = [
-    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: "https://github.com/jenstem/python-desktop-cleaner", site: "Not Available" },
-    { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: "https://github.com/jenstem/space_invasion", site: "Not Available" },
+    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: "https://github.com/jenstem/python-desktop-cleaner", site: "Gif available in repo" },
+    { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: "https://github.com/jenstem/space_invasion", site: "Gif available in repo" },
     { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: "https://github.com/jenstem/the-python-newsfeed", site: "https://the-python-newsfeed-aebfc671fd04.herokuapp.com/" },
     { title: 'Revents', description: 'A React Redux Firebase Typescript event site', imageUrl: Revents, url: "https://github.com/jenstem/react-portfolio", site: "https://revents-2023-6b66b.firebaseapp.com/events" },
     { title: 'Rhythm Reviews 2.0', description: 'A React review site', imageUrl: RhythmReviews2, url: "https://github.com/group2-project3/rhythm-reviews-2.0", site: "https://rhythm-reviews-v2-a30efa7f58da.herokuapp.com/" },
@@ -26,7 +27,8 @@ const projectData = [
     { title: 'Rhythm Reviews', description: 'A CMS-style review site', imageUrl: RhythmReviews, url: "https://github.com/group7-project2/rhythm-reviews", site: "https://rhythm-reviews-8a43a75413f9.herokuapp.com/" },
     { title: 'E-Commerce Backend', description: 'Express.js API', imageUrl: ECommerceBackend, url: "https://github.com/jenstem/e-commerce-backend", site: "https://www.youtube.com/watch?v=3DmoPdavAnE" },
     { title: 'Employee Tracker', description: 'Command line application', imageUrl: EmployeeTracker, url: "https://github.com/jenstem/employee-tracker", site: "https://www.youtube.com/watch?v=RX8-YfCXom0&t=1s" },
-    { title: 'Work Day Scheduler', description: 'JavaScript Calendar app', imageUrl: WorkDay, url: "https://github.com/jenstem/work-day-scheduler", site: "https://jenstem.github.io/work-day-scheduler/" }
+    { title: 'Work Day Scheduler', description: 'JavaScript Calendar app', imageUrl: WorkDay, url: "https://github.com/jenstem/work-day-scheduler", site: "https://jenstem.github.io/work-day-scheduler/" },
+    { title: 'Coding Quiz Challenge', description: 'JavaScript quiz', imageUrl: CodeQuiz, url: "https://github.com/jenstem/Coding-Quiz-Challenge", site: "https://jenstem.github.io/Coding-Quiz-Challenge/" },
 ];
 
 export default function Projects() {
