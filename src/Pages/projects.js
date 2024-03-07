@@ -5,6 +5,7 @@ import Horiseon from '../assets/app-images/horiseon.jpg';
 import PWGenerator from '../assets/app-images/pw-generator.jpg';
 import CodeQuiz from '../assets/app-images/code-quiz.jpg';
 import WorkDay from '../assets/app-images/work-day-scheduler.jpg';
+import Weather from '../assets/app-images/weather-app.jpg';
 import PWA from '../assets/app-images/PWA.jpg';
 import SocialNetwork from '../assets/app-images/social-network.jpg';
 import TechBlog from '../assets/app-images/tech-blog.jpg';
@@ -29,6 +30,7 @@ const projectData = [
     { title: 'Rhythm Reviews', description: 'A CMS-style review site', imageUrl: RhythmReviews, url: "https://github.com/group7-project2/rhythm-reviews", site: "https://rhythm-reviews-8a43a75413f9.herokuapp.com/" },
     { title: 'E-Commerce Backend', description: 'Express.js API', imageUrl: ECommerceBackend, url: "https://github.com/jenstem/e-commerce-backend", site: "https://www.youtube.com/watch?v=3DmoPdavAnE" },
     { title: 'Employee Tracker', description: 'Command line application', imageUrl: EmployeeTracker, url: "https://github.com/jenstem/employee-tracker", site: "https://www.youtube.com/watch?v=RX8-YfCXom0&t=1s" },
+    { title: 'Weather Dashboard', description: 'JavaScript Weather Forecast app', imageUrl: Weather, url: "https://github.com/jenstem/weather-dashboard", site: "https://jenstem.github.io/weather-dashboard/" },
     { title: 'Work Day Scheduler', description: 'JavaScript Calendar app', imageUrl: WorkDay, url: "https://github.com/jenstem/work-day-scheduler", site: "https://jenstem.github.io/work-day-scheduler/" },
     { title: 'Coding Quiz Challenge', description: 'JavaScript quiz', imageUrl: CodeQuiz, url: "https://github.com/jenstem/Coding-Quiz-Challenge", site: "https://jenstem.github.io/Coding-Quiz-Challenge/" },
     { title: 'Password Generator', description: 'JavaScript Password Generator', imageUrl: PWGenerator, url: "https://github.com/jenstem/Password-Generator", site: "https://jenstem.github.io/Password-Generator/" },
