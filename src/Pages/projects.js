@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/Project/ProjectCard';
 import './projects.css';
+import Horiseon from '../assets/app-images/horiseon.jpg';
 import PWGenerator from '../assets/app-images/pw-generator.jpg';
 import CodeQuiz from '../assets/app-images/code-quiz.jpg';
 import WorkDay from '../assets/app-images/work-day-scheduler.jpg';
@@ -31,6 +32,7 @@ const projectData = [
     { title: 'Work Day Scheduler', description: 'JavaScript Calendar app', imageUrl: WorkDay, url: "https://github.com/jenstem/work-day-scheduler", site: "https://jenstem.github.io/work-day-scheduler/" },
     { title: 'Coding Quiz Challenge', description: 'JavaScript quiz', imageUrl: CodeQuiz, url: "https://github.com/jenstem/Coding-Quiz-Challenge", site: "https://jenstem.github.io/Coding-Quiz-Challenge/" },
     { title: 'Password Generator', description: 'JavaScript Password Generator', imageUrl: PWGenerator, url: "https://github.com/jenstem/Password-Generator", site: "https://jenstem.github.io/Password-Generator/" },
+    { title: 'Horiseon', description: 'HTML & CSS web page', imageUrl: Horiseon, url: "https://github.com/jenstem/horiseon_seo_web_page", site: "https://jenstem.github.io/horiseon_seo_web_page/" },
 ];
 
 export default function Projects() {
