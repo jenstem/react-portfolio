@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from '../components/Project/ProjectCard';
 import './projects.css';
+import WorkDay from '../assets/app-images/work-day-scheduler.jpg';
 import PWA from '../assets/app-images/PWA.jpg';
 import SocialNetwork from '../assets/app-images/social-network.jpg';
 import TechBlog from '../assets/app-images/tech-blog.jpg';
@@ -25,6 +26,7 @@ const projectData = [
     { title: 'Rhythm Reviews', description: 'A CMS-style review site', imageUrl: RhythmReviews, url: "https://github.com/group7-project2/rhythm-reviews", site: "https://rhythm-reviews-8a43a75413f9.herokuapp.com/" },
     { title: 'E-Commerce Backend', description: 'Express.js API', imageUrl: ECommerceBackend, url: "https://github.com/jenstem/e-commerce-backend", site: "https://www.youtube.com/watch?v=3DmoPdavAnE" },
     { title: 'Employee Tracker', description: 'Command line application', imageUrl: EmployeeTracker, url: "https://github.com/jenstem/employee-tracker", site: "https://www.youtube.com/watch?v=RX8-YfCXom0&t=1s" },
+    { title: 'Work Day Scheduler', description: 'JavaScript Calendar app', imageUrl: WorkDay, url: "https://github.com/jenstem/work-day-scheduler", site: "https://jenstem.github.io/work-day-scheduler/" }
 ];
 
 export default function Projects() {
