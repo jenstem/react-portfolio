@@ -11,8 +11,10 @@ import RhythmReviews2 from '../assets/app-images/rhythmreview2.jpg';
 import Revents from '../assets/app-images/revents.jpg';
 import Newsfeed from '../assets/app-images/python-newsfeed.jpg';
 import SpaceInvasion from '../assets/app-images/space_invasion.jpg';
+import Cleaner from '../assets/app-images/python-desktop-cleaner.jpg';
 
 const projectData = [
+    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: "https://github.com/jenstem/python-desktop-cleaner", site: "Not Available" },
     { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: "https://github.com/jenstem/space_invasion", site: "Not Available" },
     { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: "https://github.com/jenstem/the-python-newsfeed", site: "https://the-python-newsfeed-aebfc671fd04.herokuapp.com/" },
     { title: 'Revents', description: 'A React Redux Firebase Typescript event site', imageUrl: Revents, url: "https://github.com/jenstem/react-portfolio", site: "https://revents-2023-6b66b.firebaseapp.com/events" },
