@@ -19,22 +19,22 @@ import SpaceInvasion from '../assets/app-images/space_invasion.jpg';
 import Cleaner from '../assets/app-images/python-desktop-cleaner.jpg';
 
 const projectData = [
-    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: <a href="https://github.com/jenstem/python-desktop-cleaner">Repo</a>, site: "Gif available in repo" },
-    { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: "https://github.com/jenstem/space_invasion", site: "Gif available in repo" },
-    { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: "https://github.com/jenstem/the-python-newsfeed", site: "https://the-python-newsfeed-aebfc671fd04.herokuapp.com/" },
-    { title: 'Revents', description: 'A React Redux Firebase Typescript event site', imageUrl: Revents, url: "https://github.com/jenstem/react-portfolio", site: "https://revents-2023-6b66b.firebaseapp.com/events" },
-    { title: 'Rhythm Reviews 2.0', description: 'A React review site', imageUrl: RhythmReviews2, url: "https://github.com/group2-project3/rhythm-reviews-2.0", site: "https://rhythm-reviews-v2-a30efa7f58da.herokuapp.com/" },
-    { title: 'PWA Text Editor', description: 'Text editor web application', imageUrl: PWA, url: "https://github.com/jenstem/pwa-text-editor", site: "https://hidden-ocean-30849-b1dc3b32b941.herokuapp.com/" },
-    { title: 'Social Network API', description: 'A command line invoked network api', imageUrl: SocialNetwork, url: 'https://github.com/jenstem/social-network-api', site: "https://www.youtube.com/watch?v=5fiwiHfIDHg" },
-    { title: 'Tech Blog', description: 'CMS-style blog site', imageUrl: TechBlog, url: "https://github.com/jenstem/tech-blog", site: "Not Available" },
-    { title: 'Rhythm Reviews', description: 'A CMS-style review site', imageUrl: RhythmReviews, url: "https://github.com/group7-project2/rhythm-reviews", site: "https://rhythm-reviews-8a43a75413f9.herokuapp.com/" },
-    { title: 'E-Commerce Backend', description: 'Express.js API', imageUrl: ECommerceBackend, url: "https://github.com/jenstem/e-commerce-backend", site: "https://www.youtube.com/watch?v=3DmoPdavAnE" },
-    { title: 'Employee Tracker', description: 'Command line application', imageUrl: EmployeeTracker, url: "https://github.com/jenstem/employee-tracker", site: "https://www.youtube.com/watch?v=RX8-YfCXom0&t=1s" },
-    { title: 'Weather Dashboard', description: 'JavaScript Weather Forecast app', imageUrl: Weather, url: "https://github.com/jenstem/weather-dashboard", site: "https://jenstem.github.io/weather-dashboard/" },
-    { title: 'Work Day Scheduler', description: 'JavaScript Calendar app', imageUrl: WorkDay, url: "https://github.com/jenstem/work-day-scheduler", site: "https://jenstem.github.io/work-day-scheduler/" },
-    { title: 'Coding Quiz Challenge', description: 'JavaScript quiz', imageUrl: CodeQuiz, url: "https://github.com/jenstem/Coding-Quiz-Challenge", site: "https://jenstem.github.io/Coding-Quiz-Challenge/" },
-    { title: 'Password Generator', description: 'JavaScript Password Generator', imageUrl: PWGenerator, url: "https://github.com/jenstem/Password-Generator", site: "https://jenstem.github.io/Password-Generator/" },
-    { title: 'Horiseon', description: 'HTML & CSS web page', imageUrl: Horiseon, url: "https://github.com/jenstem/horiseon_seo_web_page", site: "https://jenstem.github.io/horiseon_seo_web_page/" },
+    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: <a href="https://github.com/jenstem/python-desktop-cleaner">GitHub</a>, site: "Gif available on GitHub" },
+    { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: <a href="https://github.com/jenstem/space_invasion">GitHub</a>, site: "Gif available on GitHub" },
+    { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: <a href="https://github.com/jenstem/the-python-newsfeed">GitHub</a>, site: "https://the-python-newsfeed-aebfc671fd04.herokuapp.com/" },
+    { title: 'Revents', description: 'A React Redux Firebase Typescript event site', imageUrl: Revents, url: <a href="https://github.com/jenstem/react-portfolio">GitHub</a>, site: "https://revents-2023-6b66b.firebaseapp.com/events" },
+    { title: 'Rhythm Reviews 2.0', description: 'A React review site', imageUrl: RhythmReviews2, url: <a href="https://github.com/group2-project3/rhythm-reviews-2.0">GitHub</a>, site: "https://rhythm-reviews-v2-a30efa7f58da.herokuapp.com/" },
+    { title: 'PWA Text Editor', description: 'Text editor web application', imageUrl: PWA, url: <a href="https://github.com/jenstem/pwa-text-editor">GitHub</a>, site: "https://hidden-ocean-30849-b1dc3b32b941.herokuapp.com/" },
+    { title: 'Social Network API', description: 'A command line invoked network api', imageUrl: SocialNetwork, url: <a href='https://github.com/jenstem/social-network-api'>GitHub</a>, site: "https://www.youtube.com/watch?v=5fiwiHfIDHg" },
+    { title: 'Tech Blog', description: 'CMS-style blog site', imageUrl: TechBlog, url: <a href="https://github.com/jenstem/tech-blog">GitHub</a>, site: "Not Available" },
+    { title: 'Rhythm Reviews', description: 'A CMS-style review site', imageUrl: RhythmReviews, url: <a href="https://github.com/group7-project2/rhythm-reviews">GitHub</a>, site: "https://rhythm-reviews-8a43a75413f9.herokuapp.com/" },
+    { title: 'E-Commerce Backend', description: 'Express.js API', imageUrl: ECommerceBackend, url: <a href="https://github.com/jenstem/e-commerce-backend">GitHub</a>, site: "https://www.youtube.com/watch?v=3DmoPdavAnE" },
+    { title: 'Employee Tracker', description: 'Command line application', imageUrl: EmployeeTracker, url: <a href="https://github.com/jenstem/employee-tracker">GitHub</a>, site: "https://www.youtube.com/watch?v=RX8-YfCXom0&t=1s" },
+    { title: 'Weather Dashboard', description: 'JavaScript Weather Forecast app', imageUrl: Weather, url: <a href="https://github.com/jenstem/weather-dashboard">GitHub</a>, site: "https://jenstem.github.io/weather-dashboard/" },
+    { title: 'Work Day Scheduler', description: 'JavaScript Calendar app', imageUrl: WorkDay, url: <a href="https://github.com/jenstem/work-day-scheduler">GitHub</a>, site: "https://jenstem.github.io/work-day-scheduler/" },
+    { title: 'Coding Quiz Challenge', description: 'JavaScript quiz', imageUrl: CodeQuiz, url: <a href="https://github.com/jenstem/Coding-Quiz-Challenge">GitHub</a>, site: "https://jenstem.github.io/Coding-Quiz-Challenge/" },
+    { title: 'Password Generator', description: 'JavaScript Password Generator', imageUrl: PWGenerator, url: <a href="https://github.com/jenstem/Password-Generator">GitHub</a>, site: "https://jenstem.github.io/Password-Generator/" },
+    { title: 'Horiseon', description: 'HTML & CSS web page', imageUrl: Horiseon, url: <a href="https://github.com/jenstem/horiseon_seo_web_page">GitHub</a>, site: "https://jenstem.github.io/horiseon_seo_web_page/" },
 ];
 
 export default function Projects() {
