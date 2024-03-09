@@ -19,7 +19,7 @@ import SpaceInvasion from '../assets/app-images/space_invasion.jpg';
 import Cleaner from '../assets/app-images/python-desktop-cleaner.jpg';
 
 const projectData = [
-    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: <a href="https://github.com/jenstem/python-desktop-cleaner">GitHub</a>, site: "Gif available on GitHub" },
+    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: <a href="https://github.com/jenstem/python-desktop-cleaner" target="_blank">GitHub</a>, site: <a href="https://github.com/jenstem/python-desktop-cleaner" target="_blank">Gif available on GitHub</a> },
     { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: <a href="https://github.com/jenstem/space_invasion">GitHub</a>, site: "Gif available on GitHub" },
     { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: <a href="https://github.com/jenstem/the-python-newsfeed">GitHub</a>, site: <a href="https://the-python-newsfeed-aebfc671fd04.herokuapp.com/">View Website</a> },
     { title: 'Revents', description: 'A React Redux Firebase Typescript event site', imageUrl: Revents, url: <a href="https://github.com/jenstem/react-portfolio">GitHub</a>, site: <a href="https://revents-2023-6b66b.firebaseapp.com/events">View Website</a> },
