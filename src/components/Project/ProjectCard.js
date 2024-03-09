@@ -9,9 +9,9 @@ export default function ProjectCard({ project }) {
       <img src={imageUrl} alt={title} className="project-image" />
       <h3 className="project-title">{title}</h3>
       <p className="project-description">{description}</p>
-      <a href={url} className="project-description hover-link">repo: {url} </a><br />
+      <a href={url} className="project-description hover-link">{url}</a><br />
       <br />
-      <a href={site} className="project-description hover-link">site: {site}</a>
+      <a href={site} className="project-description hover-link">{site}</a>
     </div>
 
   );
