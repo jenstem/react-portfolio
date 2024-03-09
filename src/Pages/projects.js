@@ -19,14 +19,14 @@ import SpaceInvasion from '../assets/app-images/space_invasion.jpg';
 import Cleaner from '../assets/app-images/python-desktop-cleaner.jpg';
 
 const projectData = [
-    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: "https://github.com/jenstem/python-desktop-cleaner", site: "Gif available in repo" },
+    { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: <a href="https://github.com/jenstem/python-desktop-cleaner">Repo</a>, site: "Gif available in repo" },
     { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: "https://github.com/jenstem/space_invasion", site: "Gif available in repo" },
     { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: "https://github.com/jenstem/the-python-newsfeed", site: "https://the-python-newsfeed-aebfc671fd04.herokuapp.com/" },
     { title: 'Revents', description: 'A React Redux Firebase Typescript event site', imageUrl: Revents, url: "https://github.com/jenstem/react-portfolio", site: "https://revents-2023-6b66b.firebaseapp.com/events" },
     { title: 'Rhythm Reviews 2.0', description: 'A React review site', imageUrl: RhythmReviews2, url: "https://github.com/group2-project3/rhythm-reviews-2.0", site: "https://rhythm-reviews-v2-a30efa7f58da.herokuapp.com/" },
     { title: 'PWA Text Editor', description: 'Text editor web application', imageUrl: PWA, url: "https://github.com/jenstem/pwa-text-editor", site: "https://hidden-ocean-30849-b1dc3b32b941.herokuapp.com/" },
     { title: 'Social Network API', description: 'A command line invoked network api', imageUrl: SocialNetwork, url: 'https://github.com/jenstem/social-network-api', site: "https://www.youtube.com/watch?v=5fiwiHfIDHg" },
-    { title: 'Tech Blog', description: 'CMS-style blog site', imageUrl: TechBlog, url: "https://github.com/jenstem/tech-blog", site: "https://fast-brook-86367-d21f795e7f85.herokuapp.com/" },
+    { title: 'Tech Blog', description: 'CMS-style blog site', imageUrl: TechBlog, url: "https://github.com/jenstem/tech-blog", site: "Not Available" },
     { title: 'Rhythm Reviews', description: 'A CMS-style review site', imageUrl: RhythmReviews, url: "https://github.com/group7-project2/rhythm-reviews", site: "https://rhythm-reviews-8a43a75413f9.herokuapp.com/" },
     { title: 'E-Commerce Backend', description: 'Express.js API', imageUrl: ECommerceBackend, url: "https://github.com/jenstem/e-commerce-backend", site: "https://www.youtube.com/watch?v=3DmoPdavAnE" },
     { title: 'Employee Tracker', description: 'Command line application', imageUrl: EmployeeTracker, url: "https://github.com/jenstem/employee-tracker", site: "https://www.youtube.com/watch?v=RX8-YfCXom0&t=1s" },
