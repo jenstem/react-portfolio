@@ -17,8 +17,14 @@ import Revents from '../assets/app-images/revents.jpg';
 import Newsfeed from '../assets/app-images/python-newsfeed.jpg';
 import SpaceInvasion from '../assets/app-images/space_invasion.jpg';
 import Cleaner from '../assets/app-images/python-desktop-cleaner.jpg';
+import Retail from '../assets/app-images/retail-site-scraper.jpg';
+import StockMarket from '../assets/app-images/stock-market-scraper.jpg';
+import Auction from '../assets/app-images/auction-site-scraper.jpg';
 
 const projectData = [
+    { title: 'Web Scraper - Auction Site', description: 'A Python Web Scraper App', imageUrl: Auction, url: <a href="https://github.com/jenstem/web-scraper-auction-site" target="_blank">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-auction-site" target="_blank">Screenshot available on GitHub</a> },
+    { title: 'Web Scraper - Stock Market', description: 'A Python Web Scraper App', imageUrl: StockMarket, url: <a href="https://github.com/jenstem/web-scraper-stock-market" target="_blank">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-stock-market" target="_blank">Screenshot available on GitHub</a> },
+    { title: 'Web Scraper - Retail Site', description: 'A Python Web Scraper App', imageUrl: Retail, url: <a href="https://github.com/jenstem/web-scraper-retail-site" target="_blank">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-retail-site" target="_blank">Screenshot available on GitHub</a> },
     { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: <a href="https://github.com/jenstem/python-desktop-cleaner" target="_blank">GitHub</a>, site: <a href="https://github.com/jenstem/python-desktop-cleaner" target="_blank">Gif available on GitHub</a> },
     { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: <a href="https://github.com/jenstem/space_invasion">GitHub</a>, site: "Gif available on GitHub" },
     { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: <a href="https://github.com/jenstem/the-python-newsfeed">GitHub</a>, site: <a href="https://the-python-newsfeed-aebfc671fd04.herokuapp.com/">View Website</a> },
