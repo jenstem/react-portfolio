@@ -20,8 +20,10 @@ import Cleaner from '../assets/app-images/python-desktop-cleaner.jpg';
 import Retail from '../assets/app-images/retail-site-scraper.jpg';
 import StockMarket from '../assets/app-images/stock-market-scraper.jpg';
 import Auction from '../assets/app-images/auction-site-scraper.jpg';
+import Dragon from '../assets/app-images/houseOfTheDragon.jpg';
 
 const projectData = [
+    { title: 'Selenium Web Scraper', description: 'A Python & Selenium Web Scraper App', imageUrl: Dragon, url: <a href="https://github.com/jenstem/selenium-web-scraper">GitHub</a>, site: <a href="https://github.com/jenstem/selenium-web-scraper">Gif available on GitHub</a> },
     { title: 'Web Scraper - Auction Site', description: 'A Python Web Scraper App', imageUrl: Auction, url: <a href="https://github.com/jenstem/web-scraper-auction-site">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-auction-site">Screenshot available on GitHub</a> },
     { title: 'Web Scraper - Stock Market', description: 'A Python Web Scraper App', imageUrl: StockMarket, url: <a href="https://github.com/jenstem/web-scraper-stock-market">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-stock-market">Screenshot available on GitHub</a> },
     { title: 'Web Scraper - Retail Site', description: 'A Python Web Scraper App', imageUrl: Retail, url: <a href="https://github.com/jenstem/web-scraper-retail-site">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-retail-site">Screenshot available on GitHub</a> },
