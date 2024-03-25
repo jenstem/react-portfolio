@@ -15,7 +15,7 @@ export default function Resume() {
             </p>
                 <p>HTML &#x2022; CSS &#x2022; JavaScript &#x2022; jQuery &#x2022; React &#x2022; Tailwind &#x2022; Bootstrap &#x2022; Adobe Photoshop</p>
                 <p>MySQL &#x2022; MongoDB &#x2022; APIs &#x2022; Node.js &#x2022; Express &#x2022; Sequelize &#x2022; Mongoose &#x2022; GraphQL &#x2022; REST</p>
-                <p className='add-space'>TypeScript &#x2022; Redux &#x2022; Python &#x2022; Flask</p>
+                <p className='add-space'>TypeScript &#x2022; Redux &#x2022; Python &#x2022; Flask &#x2022; Django</p>
             <div className="bar"></div>
         </div>
     );
