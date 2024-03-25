@@ -22,10 +22,10 @@ import StockMarket from '../assets/app-images/stock-market-scraper.jpg';
 import Auction from '../assets/app-images/auction-site-scraper.jpg';
 import Dragon from '../assets/app-images/houseOfTheDragon.jpg';
 import DjangoBlog from '../assets/app-images/django-blog.jpg';
-import Weather from '../assets/app-images/django-weather-app.jpg';
+import WeatherApp from '../assets/app-images/django-weather-app.jpg';
 
 const projectData = [
-    { title: 'Django Weather App', description: 'A Python, Django, OpenWeather API App', imageUrl: Weather, url: <a href="https://github.com/jenstem/django-weather-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-weather-app">Gif available on GitHub</a> },
+    { title: 'Django Weather App', description: 'A Python, Django, OpenWeather API App', imageUrl: WeatherApp, url: <a href="https://github.com/jenstem/django-weather-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-weather-app">Gif available on GitHub</a> },
     { title: 'Django REST API Blog', description: 'A Python, Django, REST API App', imageUrl: DjangoBlog, url: <a href="https://github.com/jenstem/django-rest-api-blog">GitHub</a>, site: <a href="https://github.com/jenstem/django-rest-api-blog">Gif available on GitHub</a> },
     { title: 'Selenium Web Scraper', description: 'A Python & Selenium Web Scraper App', imageUrl: Dragon, url: <a href="https://github.com/jenstem/selenium-web-scraper">GitHub</a>, site: <a href="https://github.com/jenstem/selenium-web-scraper">Gif available on GitHub</a> },
     { title: 'Web Scraper - Auction Site', description: 'A Python Web Scraper App', imageUrl: Auction, url: <a href="https://github.com/jenstem/web-scraper-auction-site">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-auction-site">Screenshot available on GitHub</a> },
