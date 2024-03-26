@@ -1,13 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './contact.css';
 import { validateEmail } from '../utils/helpers';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
+    const form = useRef();
     const handleSubmit = (e) => {
         e.preventDefault();
+        emailjs.sendForm('service_srhstmv', 'template_fcjmcqq', form.current, {
+                publicKey: 'sN5KxwZnnbauM-BBg',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS! Message sent.');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
         if (!errorMessage) {
             console.log('Submit Form', formState);
         }
@@ -42,26 +55,29 @@ export default function Contact() {
                 <div className="contact-container">
                     <div className="contact-container-second">
                         <div className="form-container">
-                            <form id="contact-form-id" onSubmit={handleSubmit} className="contact-form-class" method="post" action="contact-form-process.php">
+                            <form id="contact-form-id" ref={form} onSubmit={handleSubmit} className="contact-form-class" method="post" action="contact-form-process.php">
 
                                 <div className="contact-form-group">
                                     <label name="Name" className="contact-label">Your name</label>
                                     <div className="contact-input-group">
-                                        <input type="text" id="Name" name="Name" className="contact-form-control" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" required />
+                                        {/* <input type="text" id="Name" name="Name" className="contact-form-control" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" required /> */}
+                                        <input type="text" id="Name" name="user_name" className="contact-form-control" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" required />
                                     </div>
                                 </div>
 
                                 <div className="contact-form-group">
                                     <label name="Email" className="contact-label">Your email address</label>
                                     <div className="contact-input-group">
-                                        <input type="email" id="Email" name="Email" defaultValue={email} onBlur={handleChange} className="contact-form-control" placeholder="Enter your email address" required />
+                                        {/* <input type="email" id="Email" name="Email" defaultValue={email} onBlur={handleChange} className="contact-form-control" placeholder="Enter your email address" required /> */}
+                                        <input type="email" id="Email" name="user_email" defaultValue={email} onBlur={handleChange} className="contact-form-control" placeholder="Enter your email address" required />
                                     </div>
                                 </div>
 
                                 <div className="contact-form-group">
                                     <label name="Message" className="contact-label">Your message</label>
                                     <div className="contact-input-group">
-                                        <textarea id="Message" name="Message" defaultValue={message} onBlur={handleChange} className="contact-form-control" rows="6" maxLength="3000" placeholder="Enter your message" required></textarea>
+                                        {/* <textarea id="Message" name="Message" defaultValue={message} onBlur={handleChange} className="contact-form-control" rows="6" maxLength="3000" placeholder="Enter your message" required></textarea> */}
+                                        <textarea id="Message" name="message" defaultValue={message} onBlur={handleChange} className="contact-form-control" rows="6" maxLength="3000" placeholder="Enter your message" required></textarea>
                                         {errorMessage && (
                                             <div>
                                                 <p className="error-text">{errorMessage}</p>
