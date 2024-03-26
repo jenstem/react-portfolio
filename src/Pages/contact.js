@@ -21,6 +21,9 @@ export default function Contact() {
                     console.log('FAILED...', error.text);
                 },
             );
+        name = "";
+        email = "";
+        message = "";
         if (!errorMessage) {
             console.log('Submit Form', formState);
         }
