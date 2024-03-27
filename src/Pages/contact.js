@@ -65,7 +65,7 @@ export default function Contact() {
                                     <label name="Name" className="contact-label">Your name</label>
                                     <div className="contact-input-group">
                                         {/* <input type="text" id="Name" name="Name" className="contact-form-control" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" required /> */}
-                                        <input type="text" id="Name" name="user_name" className="contact-form-control" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" required />
+                                        <input type="text" id="Name" name="user_name" className="contact-form-control" defaultValue={name} onSubmit={handleSubmit} onBlur={handleChange} placeholder="Enter your name" required />
                                     </div>
                                 </div>
 
@@ -73,7 +73,7 @@ export default function Contact() {
                                     <label name="Email" className="contact-label">Your email address</label>
                                     <div className="contact-input-group">
                                         {/* <input type="email" id="Email" name="Email" defaultValue={email} onBlur={handleChange} className="contact-form-control" placeholder="Enter your email address" required /> */}
-                                        <input type="email" id="Email" name="user_email" defaultValue={email} onBlur={handleChange} className="contact-form-control" placeholder="Enter your email address" required />
+                                        <input type="email" id="Email" name="user_email" defaultValue={email} onSubmit={handleSubmit} onBlur={handleChange} className="contact-form-control" placeholder="Enter your email address" required />
                                     </div>
                                 </div>
 
@@ -81,7 +81,7 @@ export default function Contact() {
                                     <label name="Message" className="contact-label">Your message</label>
                                     <div className="contact-input-group">
                                         {/* <textarea id="Message" name="Message" defaultValue={message} onBlur={handleChange} className="contact-form-control" rows="6" maxLength="3000" placeholder="Enter your message" required></textarea> */}
-                                        <textarea id="Message" name="message" defaultValue={message} onBlur={handleChange} className="contact-form-control" rows="6" maxLength="3000" placeholder="Enter your message" required></textarea>
+                                        <textarea id="Message" name="message" defaultValue={message} onSubmit={handleSubmit} onBlur={handleChange} className="contact-form-control" rows="6" maxLength="3000" placeholder="Enter your message" required></textarea>
                                         {errorMessage && (
                                             <div>
                                                 <p className="error-text">{errorMessage}</p>
