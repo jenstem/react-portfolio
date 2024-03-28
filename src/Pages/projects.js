@@ -23,8 +23,10 @@ import Auction from '../assets/app-images/auction-site-scraper.jpg';
 import Dragon from '../assets/app-images/houseOfTheDragon.jpg';
 import DjangoBlog from '../assets/app-images/django-blog.jpg';
 import WeatherApp from '../assets/app-images/django-weather-app.jpg';
+import Calculator from '../assets/app-images/calculator.jpg';
 
 const projectData = [
+    { title: 'Python Calculator App', description: 'A Python & Tkinter App', imageUrl: Calculator, url: <a href="https://github.com/jenstem/python-calculator-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-calculator-app">Gif available on GitHub</a> },
     { title: 'Django Weather App', description: 'A Python, Django, OpenWeather API App', imageUrl: WeatherApp, url: <a href="https://github.com/jenstem/django-weather-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-weather-app">Gif available on GitHub</a> },
     { title: 'Django REST API Blog', description: 'A Python, Django, REST API App', imageUrl: DjangoBlog, url: <a href="https://github.com/jenstem/django-rest-api-blog">GitHub</a>, site: <a href="https://github.com/jenstem/django-rest-api-blog">Gif available on GitHub</a> },
     { title: 'Selenium Web Scraper', description: 'A Python & Selenium Web Scraper App', imageUrl: Dragon, url: <a href="https://github.com/jenstem/selenium-web-scraper">GitHub</a>, site: <a href="https://github.com/jenstem/selenium-web-scraper">Gif available on GitHub</a> },
