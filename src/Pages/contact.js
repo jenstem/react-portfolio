@@ -1,8 +1,8 @@
 import React, { useState, useRef } from 'react';
 import './contact.css';
 import { validateEmail } from '../utils/helpers';
-import emailjs from '@emailjs/browser';
-import { toast } from "react-toastify";
+// import emailjs from '@emailjs/browser';
+// import { toast } from "react-toastify";
 
 export default function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -11,23 +11,23 @@ export default function Contact() {
     const form = useRef();
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_srhstmv', 'template_fcjmcqq', form.current, {
-                publicKey: 'sN5KxwZnnbauM-BBg',
-            })
-            .then(
-                () => {
-                    console.log('SUCCESS! Message sent.');
-                    // toast.success('Message sent successfully');
-                    // form.current?.reset();
-                },
-                (error) => {
-                    console.log('FAILED...', error.text);
-                },
-            );
-        if (!errorMessage) {
-            console.log('Submit Form', formState);
-            // toast.error(error.message);
-        }
+        // emailjs.sendForm('service_srhstmv', 'template_fcjmcqq', form.current, {
+        //         publicKey: 'sN5KxwZnnbauM-BBg',
+        //     })
+        //     .then(
+        //         () => {
+        //             console.log('SUCCESS! Message sent.');
+        //             // toast.success('Message sent successfully');
+        //             // form.current?.reset();
+        //         },
+        //         (error) => {
+        //             console.log('FAILED...', error.text);
+        //         },
+        //     );
+        // if (!errorMessage) {
+        //     console.log('Submit Form', formState);
+        //     // toast.error(error.message);
+        // }
     };
 
     const handleChange = (e) => {
