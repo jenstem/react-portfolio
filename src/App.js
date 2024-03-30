@@ -6,13 +6,10 @@ import Footer from './components/Footer';
 import Projects from './Pages/projects';
 import Contact from './Pages/contact';
 import Resume from './Pages/resume';
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
     return (
         <div className="App">
-            {/* <ToastContainer position='top-right' hideProgressBar theme='colored'/> */}
             <Header />
             <div id='home'>
                 <Home />
