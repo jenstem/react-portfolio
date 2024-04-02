@@ -26,17 +26,20 @@ import WeatherApp from '../assets/app-images/django-weather-app.jpg';
 import Calculator from '../assets/app-images/calculator.jpg';
 import StudentDB from '../assets/app-images/postgresqldb.jpg';
 import Compressor from '../assets/app-images/compressor.jpg';
+import Converter from '../assets/app-images/converter.jpg';
 
 const projectData = [
+
+    { title: 'Python Text to Speech Converter App', description: 'A Python & Tkinter App', imageUrl: Converter, url: <a href="https://github.com/jenstem/text-to-speech-converter">GitHub</a>, site: <a href="https://github.com/jenstem/text-to-speech-converter">Image available on GitHub</a> },
     { title: 'Python Compressor App', description: 'A Python & Tkinter App', imageUrl: Compressor, url: <a href="https://github.com/jenstem/python-compressor">GitHub</a>, site: <a href="https://github.com/jenstem/python-compressor">Gif available on GitHub</a> },
     { title: 'PostgreSQL Database App', description: 'A Python, PostgreSQL & Tkinter App', imageUrl: StudentDB, url: <a href="https://github.com/jenstem/postgresql-database">GitHub</a>, site: <a href="https://github.com/jenstem/postgresql-database">Gif available on GitHub</a> },
     { title: 'Python Calculator App', description: 'A Python & Tkinter App', imageUrl: Calculator, url: <a href="https://github.com/jenstem/python-calculator-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-calculator-app">Gif available on GitHub</a> },
     { title: 'Django Weather App', description: 'A Python, Django, OpenWeather API App', imageUrl: WeatherApp, url: <a href="https://github.com/jenstem/django-weather-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-weather-app">Gif available on GitHub</a> },
     { title: 'Django REST API Blog', description: 'A Python, Django, REST API App', imageUrl: DjangoBlog, url: <a href="https://github.com/jenstem/django-rest-api-blog">GitHub</a>, site: <a href="https://github.com/jenstem/django-rest-api-blog">Gif available on GitHub</a> },
     { title: 'Selenium Web Scraper', description: 'A Python & Selenium Web Scraper App', imageUrl: Dragon, url: <a href="https://github.com/jenstem/selenium-web-scraper">GitHub</a>, site: <a href="https://github.com/jenstem/selenium-web-scraper">Gif available on GitHub</a> },
-    { title: 'Web Scraper - Auction Site', description: 'A Python Web Scraper App', imageUrl: Auction, url: <a href="https://github.com/jenstem/web-scraper-auction-site">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-auction-site">Screenshot available on GitHub</a> },
-    { title: 'Web Scraper - Stock Market', description: 'A Python Web Scraper App', imageUrl: StockMarket, url: <a href="https://github.com/jenstem/web-scraper-stock-market">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-stock-market">Screenshot available on GitHub</a> },
-    { title: 'Web Scraper - Retail Site', description: 'A Python Web Scraper App', imageUrl: Retail, url: <a href="https://github.com/jenstem/web-scraper-retail-site">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-retail-site">Screenshot available on GitHub</a> },
+    { title: 'Web Scraper - Auction Site', description: 'A Python Web Scraper App', imageUrl: Auction, url: <a href="https://github.com/jenstem/web-scraper-auction-site">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-auction-site">Image available on GitHub</a> },
+    { title: 'Web Scraper - Stock Market', description: 'A Python Web Scraper App', imageUrl: StockMarket, url: <a href="https://github.com/jenstem/web-scraper-stock-market">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-stock-market">Image available on GitHub</a> },
+    { title: 'Web Scraper - Retail Site', description: 'A Python Web Scraper App', imageUrl: Retail, url: <a href="https://github.com/jenstem/web-scraper-retail-site">GitHub</a>, site: <a href="https://github.com/jenstem/web-scraper-retail-site">Image available on GitHub</a> },
     { title: 'Python Desktop Cleaner', description: 'An Automated Python Desktop Cleaner', imageUrl: Cleaner, url: <a href="https://github.com/jenstem/python-desktop-cleaner">GitHub</a>, site: <a href="https://github.com/jenstem/python-desktop-cleaner">Gif available on GitHub</a> },
     { title: 'Space Invasion', description: 'A Python Pygame game', imageUrl: SpaceInvasion, url: <a href="https://github.com/jenstem/space_invasion">GitHub</a>, site: "Gif available on GitHub" },
     { title: 'The Python Newsfeed', description: 'A Python Flask MySQL newsfeed site', imageUrl: Newsfeed, url: <a href="https://github.com/jenstem/the-python-newsfeed">GitHub</a>, site: <a href="https://the-python-newsfeed-aebfc671fd04.herokuapp.com/">View Website</a> },
