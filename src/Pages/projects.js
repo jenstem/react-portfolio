@@ -25,8 +25,10 @@ import DjangoBlog from '../assets/app-images/django-blog.jpg';
 import WeatherApp from '../assets/app-images/django-weather-app.jpg';
 import Calculator from '../assets/app-images/calculator.jpg';
 import StudentDB from '../assets/app-images/postgresqldb.jpg';
+import Compressor from '../assets/app-images/compressor.jpg';
 
 const projectData = [
+    { title: 'Python Compressor App', description: 'A Python & Tkinter App', imageUrl: Compressor, url: <a href="https://github.com/jenstem/python-compressor">GitHub</a>, site: <a href="https://github.com/jenstem/python-compressor">Gif available on GitHub</a> },
     { title: 'PostgreSQL Database App', description: 'A Python, PostgreSQL & Tkinter App', imageUrl: StudentDB, url: <a href="https://github.com/jenstem/postgresql-database">GitHub</a>, site: <a href="https://github.com/jenstem/postgresql-database">Gif available on GitHub</a> },
     { title: 'Python Calculator App', description: 'A Python & Tkinter App', imageUrl: Calculator, url: <a href="https://github.com/jenstem/python-calculator-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-calculator-app">Gif available on GitHub</a> },
     { title: 'Django Weather App', description: 'A Python, Django, OpenWeather API App', imageUrl: WeatherApp, url: <a href="https://github.com/jenstem/django-weather-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-weather-app">Gif available on GitHub</a> },
