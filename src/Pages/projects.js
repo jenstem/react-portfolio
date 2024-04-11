@@ -27,9 +27,11 @@ import Calculator from '../assets/app-images/calculator.jpg';
 import StudentDB from '../assets/app-images/postgresqldb.jpg';
 import Compressor from '../assets/app-images/compressor.jpg';
 import Converter from '../assets/app-images/converter.jpg';
+import Validator from '../assets/app-images/pw-validator.jpg';
 
 const projectData = [
 
+    { title: 'Python Password Validator App', description: 'A Python & bcrypt App', imageUrl: Validator, url: <a href="https://github.com/jenstem/python-password-validator">GitHub</a>, site: <a href="https://github.com/jenstem/python-password-validator">Gif available on GitHub</a> },
     { title: 'Python Text to Speech Converter App', description: 'A Python & Tkinter App', imageUrl: Converter, url: <a href="https://github.com/jenstem/text-to-speech-converter">GitHub</a>, site: <a href="https://github.com/jenstem/text-to-speech-converter">Image available on GitHub</a> },
     { title: 'Python Compressor App', description: 'A Python & Tkinter App', imageUrl: Compressor, url: <a href="https://github.com/jenstem/python-compressor">GitHub</a>, site: <a href="https://github.com/jenstem/python-compressor">Gif available on GitHub</a> },
     { title: 'PostgreSQL Database App', description: 'A Python, PostgreSQL & Tkinter App', imageUrl: StudentDB, url: <a href="https://github.com/jenstem/postgresql-database">GitHub</a>, site: <a href="https://github.com/jenstem/postgresql-database">Gif available on GitHub</a> },
