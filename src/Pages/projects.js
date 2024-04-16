@@ -29,9 +29,11 @@ import Compressor from '../assets/app-images/compressor.jpg';
 import Converter from '../assets/app-images/converter.jpg';
 import Validator from '../assets/app-images/pw-validator.jpg';
 import Generator from '../assets/app-images/qr-code.jpg';
+import Credit from '../assets/app-images/cc-validator.jpg';
 
 const projectData = [
 
+    { title: 'Python Credit Card Validator App', description: 'A Python Credit Card Validator App', imageUrl: Credit, url: <a href="https://github.com/jenstem/credit-card-validator">GitHub</a>, site: <a href="https://github.com/jenstem/credit-card-validator">Gif available on GitHub</a> },
     { title: 'Python QR Code Generator App', description: 'A Python, PyQRCode & Pillow App', imageUrl: Generator, url: <a href="https://github.com/jenstem/qr-code-generator">GitHub</a>, site: <a href="https://github.com/jenstem/qr-code-generator">Gif available on GitHub</a> },
     { title: 'Python Password Validator App', description: 'A Python & bcrypt App', imageUrl: Validator, url: <a href="https://github.com/jenstem/python-password-validator">GitHub</a>, site: <a href="https://github.com/jenstem/python-password-validator">Gif available on GitHub</a> },
     { title: 'Python Text to Speech Converter App', description: 'A Python & Tkinter App', imageUrl: Converter, url: <a href="https://github.com/jenstem/text-to-speech-converter">GitHub</a>, site: <a href="https://github.com/jenstem/text-to-speech-converter">Image available on GitHub</a> },
