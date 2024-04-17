@@ -31,9 +31,11 @@ import Validator from '../assets/app-images/pw-validator.jpg';
 import Generator from '../assets/app-images/qr-code.jpg';
 import Credit from '../assets/app-images/cc-validator.jpg';
 import CSV from '../assets/app-images/csv-converter.jpg';
+import PDF from '../assets/app-images/pdf-converter.jpg';
 
 const projectData = [
 
+    { title: 'Python PDF Generator App', description: 'A Python & FPDF PDF Generator App', imageUrl: PDF, url: <a href="https://github.com/jenstem/python-pdf-generator">GitHub</a>, site: <a href="https://github.com/jenstem/python-pdf-generator">Gif available on GitHub</a> },
     { title: 'Python CSV to PDF Converter App', description: 'A Python & FPDF CSV to PDF Converter App', imageUrl: CSV, url: <a href="https://github.com/jenstem/csv-to-pdf-converter">GitHub</a>, site: <a href="https://github.com/jenstem/csv-to-pdf-converter">Gif available on GitHub</a> },
     { title: 'Python Credit Card Validator App', description: 'A Python Credit Card Validator App', imageUrl: Credit, url: <a href="https://github.com/jenstem/credit-card-validator">GitHub</a>, site: <a href="https://github.com/jenstem/credit-card-validator">Gif available on GitHub</a> },
     { title: 'Python QR Code Generator App', description: 'A Python, PyQRCode & Pillow App', imageUrl: Generator, url: <a href="https://github.com/jenstem/qr-code-generator">GitHub</a>, site: <a href="https://github.com/jenstem/qr-code-generator">Gif available on GitHub</a> },
