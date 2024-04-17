@@ -31,7 +31,7 @@ import Validator from '../assets/app-images/pw-validator.jpg';
 import Generator from '../assets/app-images/qr-code.jpg';
 import Credit from '../assets/app-images/cc-validator.jpg';
 import CSV from '../assets/app-images/csv-converter.jpg';
-import PDF from '../assets/app-images/pdf-converter.jpg';
+import PDF from '../assets/app-images/pdf-generator.jpg';
 
 const projectData = [
 
