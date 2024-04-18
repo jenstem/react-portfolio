@@ -32,9 +32,11 @@ import Generator from '../assets/app-images/qr-code.jpg';
 import Credit from '../assets/app-images/cc-validator.jpg';
 import CSV from '../assets/app-images/csv-converter.jpg';
 import PDF from '../assets/app-images/pdf-generator.jpg';
+import Invoice from '../assets/app-images/invoice-generator.jpg';
 
 const projectData = [
 
+    { title: 'Python Invoice Generator App', description: 'A Python & FPDF Invoice Generator App', imageUrl: Invoice, url: <a href="https://github.com/jenstem/pdf-invoice-generator">GitHub</a>, site: <a href="https://github.com/jenstem/pdf-invoice-generator">Gif available on GitHub</a> },
     { title: 'Python PDF Generator App', description: 'A Python & FPDF PDF Generator App', imageUrl: PDF, url: <a href="https://github.com/jenstem/python-pdf-generator">GitHub</a>, site: <a href="https://github.com/jenstem/python-pdf-generator">Gif available on GitHub</a> },
     { title: 'Python CSV to PDF Converter App', description: 'A Python & FPDF CSV to PDF Converter App', imageUrl: CSV, url: <a href="https://github.com/jenstem/csv-to-pdf-converter">GitHub</a>, site: <a href="https://github.com/jenstem/csv-to-pdf-converter">Gif available on GitHub</a> },
     { title: 'Python Credit Card Validator App', description: 'A Python Credit Card Validator App', imageUrl: Credit, url: <a href="https://github.com/jenstem/credit-card-validator">GitHub</a>, site: <a href="https://github.com/jenstem/credit-card-validator">Gif available on GitHub</a> },
