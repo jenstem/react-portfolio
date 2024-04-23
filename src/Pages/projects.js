@@ -35,9 +35,11 @@ import PDF from '../assets/app-images/pdf-generator.jpg';
 import Invoice from '../assets/app-images/invoice-generator.jpg';
 import CV from '../assets/app-images/cv-generator.jpg';
 import Paint from '../assets/app-images/paint-app.jpg';
+import Inventory from '../assets/app-images/inventory.jpg';
 
 const projectData = [
 
+    { title: 'Python Inventory App', description: 'A Python, PyQt & SQLite App', imageUrl: Inventory, url: <a href="https://github.com/jenstem/python-inventory-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-inventory-app">Gif available on GitHub</a> },
     { title: 'Python Paint App', description: 'A Python & PyQt Paint App', imageUrl: Paint, url: <a href="https://github.com/jenstem/python-paint-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-paint-app">Gif available on GitHub</a> },
     { title: 'Python Automated CV Generator App', description: 'A Python CV Generator App', imageUrl: CV, url: <a href="https://github.com/jenstem/automated-cv-generator">GitHub</a>, site: <a href="https://github.com/jenstem/automated-cv-generator">Gif available on GitHub</a> },
     { title: 'Python Invoice Generator App', description: 'A Python & FPDF Invoice Generator App', imageUrl: Invoice, url: <a href="https://github.com/jenstem/pdf-invoice-generator">GitHub</a>, site: <a href="https://github.com/jenstem/pdf-invoice-generator">Gif available on GitHub</a> },
