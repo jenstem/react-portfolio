@@ -36,9 +36,11 @@ import Invoice from '../assets/app-images/invoice-generator.jpg';
 import CV from '../assets/app-images/cv-generator.jpg';
 import Paint from '../assets/app-images/paint-app.jpg';
 import Inventory from '../assets/app-images/inventory.jpg';
+import Budget from '../assets/app-images/budget_manager.jpg';
 
 const projectData = [
 
+    { title: 'Python Budget App', description: 'A Python & Flask Budget Manager App', imageUrl: Budget, url: <a href="https://github.com/jenstem/python-expense-manager">GitHub</a>, site: <a href="https://github.com/jenstem/python-expense-manager">Gif available on GitHub</a> },
     { title: 'Python Inventory App', description: 'A Python, PyQt & SQLite App', imageUrl: Inventory, url: <a href="https://github.com/jenstem/python-inventory-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-inventory-app">Gif available on GitHub</a> },
     { title: 'Python Paint App', description: 'A Python & PyQt Paint App', imageUrl: Paint, url: <a href="https://github.com/jenstem/python-paint-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-paint-app">Gif available on GitHub</a> },
     { title: 'Python Automated CV Generator App', description: 'A Python CV Generator App', imageUrl: CV, url: <a href="https://github.com/jenstem/automated-cv-generator">GitHub</a>, site: <a href="https://github.com/jenstem/automated-cv-generator">Gif available on GitHub</a> },
