@@ -42,7 +42,7 @@ import Thoughts from '../assets/app-images/deep-thoughts.jpg';
 
 const projectData = [
 
-    { title: 'Deep Thoughts App', description: 'An AWS + React App', imageUrl: Thoughts, url: <a href="https://github.com/jenstem/aws2">Private GitHub Repo</a>, site: <a href="https://github.com/jenstem/aws2">Private GitHub Repo</a> },
+    { title: 'Deep Thoughts App', description: 'An AWS + React App', imageUrl: Thoughts, url: <a href="https://github.com/jenstem/aws2">Private GitHub Repo</a>, site: <a href="https://youtu.be/yulIIdO484M">View YouTube Video</a> },
     { title: 'Python To Do App', description: 'A Python & Django To Do List App', imageUrl: Tasks, url: <a href="https://github.com/jenstem/django-to-do-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-to-do-app">Gif available on GitHub</a> },
     { title: 'Python Budget App', description: 'A Python & Flask Budget Manager App', imageUrl: Budget, url: <a href="https://github.com/jenstem/python-expense-manager">GitHub</a>, site: <a href="https://github.com/jenstem/python-expense-manager">Gif available on GitHub</a> },
     { title: 'Python Inventory App', description: 'A Python, PyQt & SQLite App', imageUrl: Inventory, url: <a href="https://github.com/jenstem/python-inventory-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-inventory-app">Gif available on GitHub</a> },
