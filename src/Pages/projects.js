@@ -38,9 +38,11 @@ import Paint from '../assets/app-images/paint-app.jpg';
 import Inventory from '../assets/app-images/inventory.jpg';
 import Budget from '../assets/app-images/budget_manager.jpg';
 import Tasks from '../assets/app-images/to-do-app.jpg';
+import Thoughts from '../assets/app-images/deep-thoughts.jpg';
 
 const projectData = [
 
+    { title: 'Deep Thoughts App', description: 'An AWS + React App', imageUrl: Thoughts, url: <a href="https://github.com/jenstem/aws2">Private GitHub Repo</a>, site: <a href="https://github.com/jenstem/aws2">Private GitHub Repo</a> },
     { title: 'Python To Do App', description: 'A Python & Django To Do List App', imageUrl: Tasks, url: <a href="https://github.com/jenstem/django-to-do-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-to-do-app">Gif available on GitHub</a> },
     { title: 'Python Budget App', description: 'A Python & Flask Budget Manager App', imageUrl: Budget, url: <a href="https://github.com/jenstem/python-expense-manager">GitHub</a>, site: <a href="https://github.com/jenstem/python-expense-manager">Gif available on GitHub</a> },
     { title: 'Python Inventory App', description: 'A Python, PyQt & SQLite App', imageUrl: Inventory, url: <a href="https://github.com/jenstem/python-inventory-app">GitHub</a>, site: <a href="https://github.com/jenstem/python-inventory-app">Gif available on GitHub</a> },
