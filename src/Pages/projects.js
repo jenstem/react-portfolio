@@ -39,9 +39,11 @@ import Inventory from '../assets/app-images/inventory.jpg';
 import Budget from '../assets/app-images/budget_manager.jpg';
 import Tasks from '../assets/app-images/to-do-app.jpg';
 import Thoughts from '../assets/app-images/deep-thoughts.jpg';
+import WordMatch from '../assets/app-images/wordmatch.jpg';
 
 const projectData = [
 
+    { title: 'Word Match App', description: 'An Python + Flask App', imageUrl: WordMatch, url: <a href="https://github.com/jenstem/python-word-match">GitHub</a>, site: <a href="https://github.com/jenstem/python-word-match">Gif available on GitHub</a> },
     { title: 'Deep Thoughts App', description: 'An AWS + React App', imageUrl: Thoughts, url: <a href="https://github.com/jenstem/aws2">Private GitHub Repo</a>, site: <a href="https://youtu.be/yulIIdO484M">View YouTube Video</a> },
     { title: 'Python To Do App', description: 'A Python & Django To Do List App', imageUrl: Tasks, url: <a href="https://github.com/jenstem/django-to-do-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-to-do-app">Gif available on GitHub</a> },
     { title: 'Python Budget App', description: 'A Python & Flask Budget Manager App', imageUrl: Budget, url: <a href="https://github.com/jenstem/python-expense-manager">GitHub</a>, site: <a href="https://github.com/jenstem/python-expense-manager">Gif available on GitHub</a> },
