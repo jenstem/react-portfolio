@@ -25,7 +25,7 @@ export default function Resume() {
 
                 <p>Tools:
                     Adobe Photoshop &#x2022; GitHub &#x2022; GitLab &#x2022; VS Code &#x2022; Insomnia &#x2022; Netlify &#x2022;
-                    Heroku &#x2022; Wordpress </p>
+                    Heroku &#x2022; Wordpress &#x2022; Microsoft Office 365</p>
                 <p className='add-space'> </p>
             <div className="bar"></div>
         </div>
