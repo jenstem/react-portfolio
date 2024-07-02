@@ -59,12 +59,12 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 <a id='installation'></a>
 ## Installation
 You can use the link below to access the deployed app.\
-[React Portfolio](https://main--elegant-manatee-16206a.netlify.app/)
+[React Portfolio](https://www.jenscode.com/)
 ##
 
 <a id='usage'></a>
 ## Usage
-This app is meant to help the user display their portfolio in a consistent and aesthetic style.
+This app is meant to help the user display their portfolio in a consistent and aesthetically pleasing style.
 ##
 
 <a id='license'></a>
