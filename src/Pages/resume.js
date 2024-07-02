@@ -16,13 +16,10 @@ export default function Resume() {
                 <p> <b>Frontend:</b> <br></br>
                     HTML &#x2022; CSS &#x2022; JavaScript &#x2022; jQuery &#x2022; React &#x2022; Tailwind &#x2022; Bootstrap &#x2022; Next.js &#x2022;
                     Redux &#x2022; GraphQL &#x2022; Mongoose &#x2022; TypeScript</p>
-                <p className='add-space'> </p>
                 <p> <b>Backend:</b> <br></br>
                     Python &#x2022; Django &#x2022; Flask &#x2022; SQLAlchemy &#x2022; Node.js &#x2022; Sequelize &#x2022; Express.js &#x2022; REST API &#x2022; AWS</p>
-                <p className='add-space'> </p>
                 <p> <b>Database:</b> <br></br>
                     MongoDB &#x2022; MySQL &#x2022; SQL &#x2022; NoSQL &#x2022; PostgreSQL &#x2022; Git</p>
-                <p className='add-space'> </p>
                 <p> <b>Tools:</b> <br></br>
                     Adobe Photoshop &#x2022; GitHub &#x2022; GitLab &#x2022; VS Code &#x2022; Insomnia &#x2022; Netlify &#x2022;
                     Heroku &#x2022; Wordpress &#x2022; Microsoft Office 365</p>
