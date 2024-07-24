@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import './contact.css';
 import { validateEmail } from '../utils/helpers';
 import emailjs from '@emailjs/browser';
-import { toast } from "sonner"
 
 export default function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -16,12 +15,10 @@ export default function Contact() {
             })
             .then(
                 () => {
-                    toast.success("Message sent successfully");
                     console.log('SUCCESS! Message sent.');
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
-                    toast.error("Message not sent. Please try again.");
                 },
             );
         if (!errorMessage) {
@@ -88,6 +85,7 @@ export default function Contact() {
                                 <div className="contact-form-group">
                                     <button type="submit" id="contact-button" className="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Submit</button>
                                 </div>
+
                             </form>
                         </div>
                     </div>
