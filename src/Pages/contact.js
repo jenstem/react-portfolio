@@ -16,33 +16,18 @@ export default function Contact() {
             })
             .then(
                 () => {
-                    toast.success("Message sent successfully", {
-                        position: "top-center",
-                        autoClose: 3000,
-                        hideProgressBar: false,
-                        closeOnClick: true,
-                        pauseOnHover: true,
-                        draggable: true,
-                        progress: undefined,
-                    });
+                    toast.success("Message sent successfully"),
                     console.log('SUCCESS! Message sent.');
                 },
                 (error) => {
-                    toast.error("Message not sent", {
-                        position: "top-center",
-                        autoClose: 3000,
-                        hideProgressBar: false,
-                        closeOnClick: true,
-                        pauseOnHover: true,
-                        draggable: true,
-                        progress: undefined,
-                    });
+                    toast.error("Message not sent"),
                     console.log('FAILED...', error.text);
                 },
             );
         if (!errorMessage) {
             console.log('Submit Form', formState);
         }
+        e.target.reset();
     };
 
     const handleChange = (e) => {
