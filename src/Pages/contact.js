@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import './contact.css';
 import { validateEmail } from '../utils/helpers';
 import emailjs from '@emailjs/browser';
+import { toast } from "sonner"
 
 export default function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -15,9 +16,27 @@ export default function Contact() {
             })
             .then(
                 () => {
+                    toast.success("Message sent successfully", {
+                        position: "top-center",
+                        autoClose: 3000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                    });
                     console.log('SUCCESS! Message sent.');
                 },
                 (error) => {
+                    toast.error("Message not sent", {
+                        position: "top-center",
+                        autoClose: 3000,
+                        hideProgressBar: false,
+                        closeOnClick: true,
+                        pauseOnHover: true,
+                        draggable: true,
+                        progress: undefined,
+                    });
                     console.log('FAILED...', error.text);
                 },
             );
