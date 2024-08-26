@@ -1,36 +1,51 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useState, useRef } from 'react';
 import './contact.css';
-import ReCAPTCHA from "react-google-recaptcha";
+import { validateEmail } from '../utils/helpers';
+import emailjs from '@emailjs/browser';
 
-
-// npm i @emailjs/browser
-
-const Contact = () => {
+export default function Contact() {
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const [errorMessage, setErrorMessage] = useState('');
+    const { name, email, message } = formState;
     const form = useRef();
-    const onChange = () => {};
-
-    const sendEmail = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-
-        emailjs
-            .sendForm(
-                "service_srhstmv",
-                "template_fcjmcqq",
-                form.current,
-                "sN5KxwZnnbauM-BBg"
-            )
+        emailjs.sendForm('service_srhstmv', 'template_fcjmcqq', form.current, {
+                publicKey: 'sN5KxwZnnbauM-BBg',
+            })
             .then(
-                (result) => {
-                    console.log(result.text);
-                    console.log("message sent");
+                () => {
+                    console.log('SUCCESS! Message sent.');
                 },
                 (error) => {
-                    console.log(error.text);
-                }
+                    console.log('FAILED...', error.text);
+                },
             );
+        if (!errorMessage) {
+            console.log('Submit Form', formState);
+        }
     };
 
+    const handleChange = (e) => {
+        if (e.target.name === "email") {
+            const isValid = validateEmail(e.target.value);
+            if (!isValid) {
+                setErrorMessage('Your email is invalid');
+            } else {
+                setErrorMessage('');
+            }
+        } else {
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required`);
+            } else {
+                setErrorMessage('');
+            }
+        }
+        if (!errorMessage) {
+            setFormState({ ...formState, [e.target.name]: e.target.value });
+            console.log('Handle Form', formState);
+        }
+    };
     return (
         <div id="contact">
             <div className="contact-form">
@@ -40,7 +55,7 @@ const Contact = () => {
                 <div className="contact-container">
                     <div className="contact-container-second">
                         <div className="form-container">
-                            <form id="contact-form-id" ref={form} onSubmit={sendEmail} className="contact-form-class" method="post" action="contact-form-process.php">
+                            <form id="contact-form-id" ref={form} onSubmit={handleSubmit} className="contact-form-class" method="post" action="contact-form-process.php">
 
                                 <div className="contact-form-group">
                                     <label name="Name" className="contact-label">Your name</label>
@@ -67,10 +82,6 @@ const Contact = () => {
                                         )}
                                     </div>
                                 </div>
-                                <ReCAPTCHA
-                                        sitekey="6LeWoCcqAAAAABRw4eVc86c2eF3pxXltdw_X14aP"
-                                        onChange={onChange}
-                                    />
                                 <div className="contact-form-group">
                                     <button type="submit" id="contact-button" className="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Submit</button>
                                 </div>
@@ -84,5 +95,3 @@ const Contact = () => {
         </div>
     );
 };
-
-export default Contact;
