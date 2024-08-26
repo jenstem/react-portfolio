@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2205df33.css",
-    "main.js": "/static/js/main.043c456e.js",
+    "main.css": "/static/css/main.4b6135a4.css",
+    "main.js": "/static/js/main.ec4b0fa4.js",
     "static/js/787.6c3beca2.chunk.js": "/static/js/787.6c3beca2.chunk.js",
     "static/media/horiseon.jpg": "/static/media/horiseon.c97beb0dc15c3360afa1.jpg",
     "static/media/houseOfTheDragon.jpg": "/static/media/houseOfTheDragon.adb7e8db8d7f2bf54791.jpg",
@@ -46,12 +46,12 @@
     "static/media/deep-thoughts.jpg": "/static/media/deep-thoughts.90ada3fb9c6073f3c416.jpg",
     "static/media/resume.pdf": "/static/media/resume.3b5de5ed56d62c15152e.pdf",
     "index.html": "/index.html",
-    "main.2205df33.css.map": "/static/css/main.2205df33.css.map",
-    "main.043c456e.js.map": "/static/js/main.043c456e.js.map",
+    "main.4b6135a4.css.map": "/static/css/main.4b6135a4.css.map",
+    "main.ec4b0fa4.js.map": "/static/js/main.ec4b0fa4.js.map",
     "787.6c3beca2.chunk.js.map": "/static/js/787.6c3beca2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2205df33.css",
-    "static/js/main.043c456e.js"
+    "static/css/main.4b6135a4.css",
+    "static/js/main.ec4b0fa4.js"
   ]
 }

@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import './contact.css';
 import { validateEmail } from '../utils/helpers';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
 
 export default function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -16,9 +17,11 @@ export default function Contact() {
             .then(
                 () => {
                     console.log('SUCCESS! Message sent.');
+                    toast.success('Message sent successfully');
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
+                    toast.error('Failed to send message');
                 },
             );
         if (!errorMessage) {
