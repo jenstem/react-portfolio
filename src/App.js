@@ -6,10 +6,12 @@ import Footer from './components/Footer';
 import Projects from './Pages/projects';
 import Contact from './Pages/contact';
 import Resume from './Pages/resume';
+import { ToastContainer, toast } from 'react-toastify';
 
 function App() {
     return (
         <div className="App">
+            <ToastContainer />
             <Header />
             <div id='home'>
                 <Home />
