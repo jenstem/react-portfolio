@@ -60,7 +60,7 @@ const Contact = () => {
                                 <label className='contact-label'>Your message</label>
                                 <div className='contact-input-group'>
                                 <textarea className='contact-form-control contact-form-group' name="message" placeholder="Enter your message" required/>
-                                <input className='contact-btn contact-btn-primary contact-btn-lg contact-btn-block' type="submit" value="Send" disabled={isSubmitting} />
+                                <input className='contact-btn contact-btn-primary contact-btn-lg contact-btn-block' type="submit" value="Submit" disabled={isSubmitting} />
                                 {stateMessage && <p>{stateMessage}</p>}
                                 </div>
                                 </div>
