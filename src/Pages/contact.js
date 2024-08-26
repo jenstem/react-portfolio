@@ -2,52 +2,39 @@ import React, { useState, useRef } from 'react';
 import './contact.css';
 import { validateEmail } from '../utils/helpers';
 import emailjs from '@emailjs/browser';
-import { ToastContainer, toast } from 'react-toastify';
 
-export default function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, message } = formState;
-    const form = useRef();
-    const handleSubmit = (e) => {
+
+const Contact = () => {
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [stateMessage, setStateMessage] = useState(null);
+    const sendEmail = (e) => {
+        e.persist();
         e.preventDefault();
-        emailjs.sendForm('service_srhstmv', 'template_fcjmcqq', form.current, {
+        setIsSubmitting(true);
+        emailjs
+            .sendForm(
+                'service_srhstmv', 'template_fcjmcqq', e.target, {
                 publicKey: 'sN5KxwZnnbauM-BBg',
-            })
+            }
+            )
             .then(
-                () => {
-                    console.log('SUCCESS! Message sent.');
-                    toast.success('Message sent successfully');
+                (result) => {
+                    setStateMessage('Message sent!');
+                    setIsSubmitting(false);
+                    setTimeout(() => {
+                        setStateMessage(null);
+                    }, 5000);
                 },
                 (error) => {
-                    console.log('FAILED...', error.text);
-                    toast.error('Failed to send message');
-                },
+                    setStateMessage('Something went wrong, please try again later');
+                    setIsSubmitting(false);
+                    setTimeout(() => {
+                        setStateMessage(null);
+                    }, 5000);
+                }
             );
-        if (!errorMessage) {
-            console.log('Submit Form', formState);
-        }
-    };
 
-    const handleChange = (e) => {
-        if (e.target.name === "email") {
-            const isValid = validateEmail(e.target.value);
-            if (!isValid) {
-                setErrorMessage('Your email is invalid');
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value });
-            console.log('Handle Form', formState);
-        }
+        e.target.reset();
     };
     return (
         <div id="contact">
@@ -58,43 +45,32 @@ export default function Contact() {
                 <div className="contact-container">
                     <div className="contact-container-second">
                         <div className="form-container">
-                            <form id="contact-form-id" ref={form} onSubmit={handleSubmit} className="contact-form-class" method="post" action="contact-form-process.php">
-
-                                <div className="contact-form-group">
-                                    <label name="Name" className="contact-label">Your name</label>
-                                    <div className="contact-input-group">
-                                        <input type="text" id="Name" name="user_name" className="contact-form-control" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" required />
-                                    </div>
+                            <form onSubmit={sendEmail} className='contact-form-class'>
+                                <label className='contact-label'>Your name</label>
+                                <div className='contact-input-group'>
+                                <input type="text" name="user_name" className='contact-form-control contact-form-group' placeholder="Enter your name" required/>
                                 </div>
-
-                                <div className="contact-form-group">
-                                    <label name="Email" className="contact-label">Your email address</label>
-                                    <div className="contact-input-group">
-                                        <input type="email" id="Email" name="user_email" defaultValue={email} onBlur={handleChange} className="contact-form-control" placeholder="Enter your email address" required />
-                                    </div>
+                                <div className='contact-form-group'>
+                                <label className='contact-label'>Your email</label>
+                                <div className='contact-input-group'>
+                                <input className='contact-form-control' type="email" name="user_email" placeholder="Enter your email address" required/>
                                 </div>
-
-                                <div className="contact-form-group">
-                                    <label name="Message" className="contact-label">Your message</label>
-                                    <div className="contact-input-group">
-                                        <textarea id="Message" name="message" defaultValue={message} onBlur={handleChange} className="contact-form-control" rows="6" maxLength="3000" placeholder="Enter your message" required></textarea>
-                                        {errorMessage && (
-                                            <div>
-                                                <p className="error-text">{errorMessage}</p>
-                                            </div>
-                                        )}
-                                    </div>
                                 </div>
-                                <div className="contact-form-group">
-                                    <button type="submit" id="contact-button" className="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Submit</button>
+                                <div className='contact-form-group'>
+                                <label className='contact-label'>Your message</label>
+                                <div className='contact-input-group'>
+                                <textarea className='contact-form-control contact-form-group' name="message" placeholder="Enter your message" required/>
+                                <input className='contact-btn contact-btn-primary contact-btn-lg contact-btn-block' type="submit" value="Send" disabled={isSubmitting} />
+                                {stateMessage && <p>{stateMessage}</p>}
                                 </div>
-
+                                </div>
                             </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="bar"></div>
         </div>
-    );
+
+                            );
 };
+                            export default Contact;
