@@ -32,3 +32,11 @@
   width: 100%;
   background-color: #DDA15E;
 }
+
+@media only screen {
+  .bar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
