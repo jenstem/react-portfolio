@@ -45,8 +45,8 @@ import Dictionary from '../assets/app-images/dictionary-app.jpg';
 
 const projectData = [
 
-    { title: 'Python DictionaryApp', description: 'A Python + Tkinter App', imageUrl: Dictionary, url: <a href="https://github.com/jenstem/python-dictionary">GitHub</a>, site: <a href="https://github.com/jenstem/python-dictionary">Gif available on GitHub</a> },
     { title: 'Employee Badge App', description: 'A C# + SkiaSharp App', imageUrl: CatWorx, url: <a href="https://github.com/jenstem/CatWorx">GitHub</a>, site: <a href="https://github.com/jenstem/CatWorx">Gif available on GitHub</a> },
+    { title: 'Python Dictionary App', description: 'A Python + Tkinter App', imageUrl: Dictionary, url: <a href="https://github.com/jenstem/python-dictionary">GitHub</a>, site: <a href="https://github.com/jenstem/python-dictionary">Gif available on GitHub</a> },
     { title: 'Word Match App', description: 'An Python + Flask App', imageUrl: WordMatch, url: <a href="https://github.com/jenstem/python-word-match">GitHub</a>, site: <a href="https://github.com/jenstem/python-word-match">Gif available on GitHub</a> },
     { title: 'Deep Thoughts App', description: 'An AWS + React App', imageUrl: Thoughts, url: <a href="https://github.com/jenstem/aws2">Private GitHub Repo</a>, site: <a href="https://youtu.be/yulIIdO484M">View YouTube Video</a> },
     { title: 'Python To Do App', description: 'A Python & Django To Do List App', imageUrl: Tasks, url: <a href="https://github.com/jenstem/django-to-do-app">GitHub</a>, site: <a href="https://github.com/jenstem/django-to-do-app">Gif available on GitHub</a> },
