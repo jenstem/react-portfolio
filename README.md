@@ -85,7 +85,6 @@ This app is meant to help the user display their portfolio in a consistent and a
 
 <a id='contact'></a>
 ## Contact Me
-Email:  jennifer.stemkowski@gmail.com <br>
 GitHub URL:  https://github.com/jenstem
 
 ##

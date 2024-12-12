@@ -8,11 +8,11 @@ export default function Home() {
       <img
         className="header-image"
         src={profilePic}
-        alt="Jen Stemkowski"
+        alt="Jen"
       />
       <div className="header-content">
         <div>
-          <div className="myName">Jen Stemkowski</div>
+          <div className="myName">Jen</div>
           <div className="myTitle">Software Engineer</div>
           <div className="myTitleTwo">Full Stack Developer</div>
         </div>
